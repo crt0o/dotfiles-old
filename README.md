@@ -2,8 +2,8 @@
 ![A screenshot of the config](https://i.redd.it/qen8itx7az081.png)
 Here's the dotfiles for my Qtile config, they're a bit quick-and-dirty but I hope they'll do. Please tell me if i forgot anything, I'll try to keep the repo up to date if I change stuff.
 ## Some info
-- **WM** -> `qtile`. Note: change `home_dir` in `~/.config/qtile/config.py` to fit your setup.
-- **Bar** -> `qtile`'s built in bar
+- **WM** -> `qtile`.
+- **Bar** -> `qtile`'s built in bar.
 - **Wallpaper setter** -> `feh`. Note: wallpaper is automatically picked from `~/Backgrounds`.
 - **Terminal** -> `alacritty`
 - **Shell** -> `bash`. Note: didn't change `.bashrc` apart from adding `eval "$(starship init bash)"` for Starship.
