@@ -1,0 +1,39 @@
+# crt0o's alacritty config
+
+# --- Font ---
+
+font:
+  normal:
+    family: FiraCodeNerdFont
+
+# --- Colors ---
+
+# Pasted these in manually from ~/cache/wal/colors
+
+colors:
+  # Primary colors
+  primary:
+    background: '#12101d'
+    foreground: '#dfac9f'
+
+  # Normal colors
+  normal:
+    black:   '#12101d'
+    red:     '#6B3448'
+    green:   '#3A426E'
+    yellow:  '#50466C'
+    blue:    '#6E4A66'
+    magenta: '#C45F3E'
+    cyan:    '#A15760'
+    white:   '#dfac9f'
+
+  # Bright colors
+  bright:
+    black:   '#9c786f'
+    red:     '#6B3448'
+    green:   '#3A426E'
+    yellow:  '#50466C'
+    blue:    '#6E4A66'
+    magenta: '#C45F3E'
+    cyan:    '#A15760'
+    white:   '#dfac9f'

@@ -1,0 +1,39 @@
+// crt0o's vscode settings
+
+{
+    "workbench.colorTheme": "Monokai",
+    "workbench.colorCustomizations": {
+        "editor.background": "#12101d",
+        "editor.lineHighlightBackground": "#2e2d33",
+        "editorLineNumber.foreground": "#7b7985",
+
+        "sideBar.background": "#181722",
+        "list.hoverBackground": "#2e2d33",
+        "list.activeSelectionBackground": "#12101d",
+        "list.inactiveSelectionBackground": "#12101d",
+        "sideBarSectionHeader.background": "#12101d",
+        
+
+        "titleBar.activeBackground": "#12101d",
+        "titleBar.inactiveBackground": "#181722",
+
+        "activityBar.background": "#12101d",
+
+        "statusBar.background": "#12101d",
+        "statusBar.foreground": "#dfac9f",
+        "statusBar.noFolderBackground": "#12101d",
+        
+        "button.background": "#2e2d33",
+
+        "menubar.selectionBorder": "#12101d",
+
+        "tab.inactiveBackground": "#181722",
+        "editorGroupHeader.tabsBackground": "#12101d",
+
+        "input.background": "#12101d",
+        "input.border": "#12101d",
+        "focusBorder": "#2e2d33",
+    },
+    "editor.fontFamily": "'FiraCode Nerd Font'",
+    "editor.fontLigatures": true
+}
