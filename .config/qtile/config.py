@@ -17,7 +17,7 @@ from libqtile.utils import guess_terminal
 
 mod = "mod4"
 terminal = guess_terminal()
-home_dir = os.path.expanduser('~')
+home_dir = os.getenv('HOME')
 
 # --- Load colors ---
 
@@ -165,21 +165,22 @@ screens = [
             **bar_options,
         ),
     ),
-    Screen(
-        bottom=bar.Bar(
-            [
-                widget.GroupBox(**group_box_options),
-                widget.Prompt(**text_options),
-                widget.WindowName(**text_options),
-                widget.Clock(format='%I:%M:%S', **text_options),
-                widget.TextBox(text='', padding=10, mouse_callbacks={'Button1': shutdown}, **text_options),
-                widget.TextBox(text='', padding=10, mouse_callbacks={'Button1': reboot}, **text_options),
-                widget.QuickExit(padding=10, **text_options, **quick_exit_options),
-            ],
-            30,
-            **bar_options,
-        ),
-    )
+# A second screen for my dual-monitor setup
+#    Screen(
+#        bottom=bar.Bar(
+#            [
+#                widget.GroupBox(**group_box_options),
+#                widget.Prompt(**text_options),
+#                widget.WindowName(**text_options),
+#                widget.Clock(format='%I:%M:%S', **text_options),
+#                widget.TextBox(text='', padding=10, mouse_callbacks={'Button1': shutdown}, **text_options),
+#                widget.TextBox(text='', padding=10, mouse_callbacks={'Button1': reboot}, **text_options),
+#                widget.QuickExit(padding=10, **text_options, **quick_exit_options),
+#            ],
+#            30,
+#            **bar_options,
+#        ),
+#   )
 ]
 
 # --- Floating layout keybinds ---
