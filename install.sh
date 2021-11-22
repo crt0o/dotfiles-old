@@ -2,7 +2,7 @@
 
 # Install packages
 
-sudo pacman -S xorg-server xorg-xinit qtile alacritty libwebp wget
+sudo pacman -S xorg-server xorg-xinit qtile alacritty libwebp wget feh
 yay -S picom-jonaburg-git starship
 
 pushd slock
