@@ -2,7 +2,7 @@
 
 # Install packages
 
-sudo pacman -S xorg-server xorg-xinit qtile alacritty libwebp
+sudo pacman -S xorg-server xorg-xinit qtile alacritty libwebp wget
 yay -S picom-jonaburg-git starship
 
 pushd slock
@@ -22,5 +22,5 @@ cp -r Backgrounds $HOME/Backgrounds
 
 # Confiure starship and xinit
 
-echo "eval \"$(starship init bash)\"" >> $HOME/.bashrc
+echo 'eval "$(starship init bash)"' >> $HOME/.bashrc
 echo "qtile start" >> $HOME/.xinitrc
