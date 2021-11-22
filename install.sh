@@ -2,8 +2,8 @@
 
 # Install packages
 
-sudo pacman -S xorg-server xorg-xinit qtile alacritty 
-yay -S picom-jonaburg-git starship pywal
+sudo pacman -S xorg-server xorg-xinit qtile alacritty libwebp
+yay -S picom-jonaburg-git starship
 
 pushd slock
 sudo make clean install
@@ -20,6 +20,7 @@ fc-cache
 cp -r .config/* $HOME/.config/
 cp -r Backgrounds $HOME/Backgrounds
 
-# Run pywal
+# Confiure starship and xinit
 
-wal $HOME/Backgrounds/background.webp
+echo "eval \"$(starship init bash)\"" >> $HOME/.bashrc
+echo "qtile start" >> $HOME/.xinitrc
